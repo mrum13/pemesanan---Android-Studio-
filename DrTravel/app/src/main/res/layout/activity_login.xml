@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ellipse0"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-16dp"/>
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_ellipse0"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/ic_ellipse0"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/ic_ellipse0"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"/>
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_ellipse0"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"/>
+
+    <TextView
+        android:id="@+id/selamat_dat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="103dp"
+        android:text="@string/selamat_datang"
+        android:textAppearance="@style/selamat_dat"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_medium"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/bg_edittext"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="14.5dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/bg_edittext"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="14.5dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint="@string/katasandi"/>
+
+    <TextView
+        android:id="@+id/tv_lupapass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="317dp"
+        android:text="@string/lupa"
+        android:textAppearance="@style/lupa_kata_s"
+        android:gravity="top"
+        android:background="@drawable/tv_lupa_ripple"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/btn_login_ripple"
+        android:elevation="4dp"
+        android:text="@string/masuk"
+        android:textAppearance="@style/masuk"/>
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/btn_regis_ripple"
+        android:elevation="4dp"
+        android:text="@string/daftar"
+        android:textAppearance="@style/daftar"/>
+
+    <TextView
+        android:id="@+id/atau_masuk_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="446dp"
+        android:text="@string/atau_masuk_"
+        android:textAppearance="@style/atau_masuk_"
+        android:gravity="top"
+        />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/batas"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="489dp"
+        android:background="@drawable/btn_fb_ripple"
+        android:clickable="true"/>
+
+    <View
+        android:id="@+id/batas"
+        android:layout_width="1dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="489dp"/>
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/batas"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="489dp"
+        android:background="@drawable/btn_google_ripple"
+        android:clickable="true"/>
+
+</RelativeLayout>

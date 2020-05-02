@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1CB7AD</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="indicatorSelected">#1CB7AD</color>
+    <color name="bottomNavigation">#EFEFEF</color>
+    <color name="bottomNavigationItem">#35BCB3</color>
+    <color name="cardView">#F1F1F1</color>
+    <color name="bg">#5A000000</color>
+
+</resources>
